@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }) {
       <main className="page-shell">
         <Component {...pageProps} />
       </main>
+      <Analytics />
 
       <footer className="site-footer">
         © 2026 Benjamin Shifrin. All Rights Reserved.
